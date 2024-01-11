@@ -12,7 +12,7 @@ Detect player identities across accounts.
 - If two players are online and are both moving/doing something at the same time, then this decreases their similarity score.
 
 # Data Privacy commitment
-Players can opt out of fingerprinting.
+Players can opt out of fingerprinting with `/toggle_fingerprinting`.
 
 IP addresses and other unique identifiers are hashed with `minetest.get_password_hash(server_wide_salt, identifier)`
 
